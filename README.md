@@ -91,6 +91,13 @@ A search bar just above the map connects to the Google Maps Places API, providin
     <img src="readme_images/station-pan.gif">
 </p>
 
+#### Cycling through Routes
+The application is designed to cater to the people who are unfamiliar with the city. Considering the volume of tourists that visit Dublin, one feature offered is to quickly cycle through the routes available at a station and have their trajectory displayed on the map. This allows such users to see the destinations available to them at stations in their vicinity.
+
+<p align="center">
+    <img src="readme_images/route-iw.gif">
+</p>
+
 ### Viewing a Journey
 
 #### Displaying the Route on the Map
