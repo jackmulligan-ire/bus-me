@@ -47,9 +47,9 @@ At the top of the map, a geolocation button can be pressed that pans the map to 
 #### Panning to a Location
 A search bar just above the map connects to the Google Maps Places API, providing dropdown suggestions of addresses around the city. When an address is selected, the map pans to this location. A user can then find stations in this area and begin planning their journey using the info windows.
 
-*GIF or new screenshot*
-
-*existing screenshot*
+<p align="center">
+    <img src="readme_images/station-pan-gif.gif">
+</p>
 
 ### Viewing a Journey
 
