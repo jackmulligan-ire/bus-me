@@ -1,6 +1,3 @@
-![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF)![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)![postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -18,13 +15,28 @@
 </div>
 
 ## **About BusMe**
-![inital_look](readme_images/first_page.png)
+
+<p align="center">
+  <img src="readme_images/first_page.png" width="800">
+</p>
 
 A web application that helps users to plan their journey on Dublin Bus and GoAhead services operating in the Greater Dublin Area, with the help of machine learning to model journey times. The application was developed for the Research Practicum for the MSc Computer Science (Conv.) at University College Dublin together with Vladimir Rakhmanin and Miao Shi.
 
 I was responsible for delivering the frontend of the project, as well as ensuring that the application overall had a good user experience in my role as Customer Lead. With Google Maps being a heavyweight incumbent in the space, it was vital to provide value that users wouldn't find anywhere else. The focus was therefore on shipping features like route visualisations, journey time analytics, as well as a colourful, engaging user interface.
 
 I used the project as an opportunity to develop my frontend skills, learning React Hooks, TypeScript and Material UI. 
+
+### Built With
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF)
+![npm](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![material ui](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![React Testing Library](https://img.shields.io/badge/-Testing%20Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+![postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 
 ## **Using BusMe**
 
