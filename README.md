@@ -4,8 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jackmulligan-ire/critics-versus-people">
-    <img src="readme-images/bus-me-logo.png" alt="Bus Me Logo">
+  <a href="https://github.com/jackmulligan-ire/bus-me">
+    <img src="readme_images/bus-me-logo.png" alt="Bus Me Logo">
   </a>
 
 <h3 align="center">BusMe!</h3>
