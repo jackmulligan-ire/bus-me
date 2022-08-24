@@ -87,7 +87,7 @@ As the application will be used by commuters, it was important that all features
 There’s nothing worse than being stuck in traffic on public transport. In the Journey Panel, the user can see the journey times for a 4-hour window around the journey they've planned. This gives them the option of planning their work commute earlier or later to make their journey more pleasant.
 
 <p align="center">
-    <img src="readme_images/line_chart.png" width="450">
+    <img src="readme_images/analytics-panel.png" width="450">
 </p>
 
 *Icon Credit: https://github.com/alexandresanlim/Badges4-README.md-Profile*
