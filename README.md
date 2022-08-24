@@ -20,11 +20,9 @@
   <img src="readme_images/first_page.png" width="800">
 </p>
 
-A web application that helps users to plan their journey on Dublin Bus and GoAhead services operating in the Greater Dublin Area, with the help of machine learning to model journey times. The application was developed for the Research Practicum for the MSc Computer Science (Conv.) at University College Dublin together with Vladimir Rakhmanin and Miao Shi.
+BusMe is a web application which creates journey time predictions for Dublin Bus and Go Ahead services by using machine learning models. React is used for the frontend UI design, Django is used for the backend and Postgres for data storage. Machine learning models are trained by using past data provided by UCD. Users enter their trip data which include a route, start stop, destination stops, and desired time of departure or arrival. This data is sent to the backend Django prediction API, after which the prediction results will be serialized in JSON format and displayed on the frontend. The application was developed for the Research Practicum for the MSc Computer Science (Conv.) at University College Dublin together with Vladimir Rakhmanin and Miao Shi. 
 
-I was responsible for delivering the frontend of the project, as well as ensuring that the application overall had a good user experience in my role as Customer Lead. With Google Maps being a heavyweight incumbent in the space, it was vital to provide value that users wouldn't find anywhere else. The focus was therefore on shipping features like route visualisations, journey time analytics, as well as a colourful, engaging user interface.
-
-I used the project as an opportunity to develop my frontend skills, learning React Hooks, TypeScript and Material UI. 
+I was responsible for delivering the frontend of the project, as well as ensuring that the application overall had a good user experience in my role as Customer Lead. With Google Maps being a heavyweight incumbent in the space, it was vital to provide value that users wouldn't find anywhere else. The focus was therefore on shipping features like route visualisations, journey time analytics, as well as an engaging user interface. I used the project as an opportunity to develop my frontend skills, learning React Hooks, TypeScript and Material UI. 
 
 ### Built With
 ![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -37,6 +35,10 @@ I used the project as an opportunity to develop my frontend skills, learning Rea
 ![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ![postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
+## Getting Started
+
+Instructions on setting up your own local copy of BusMe can be found in the [developer readme](https://github.com/jvm-comp47360/bus-me/blob/main/developer_info/ReadMe_Developer.md).
 
 ## **Using BusMe**
 
