@@ -40,7 +40,7 @@ I was responsible for delivering the frontend of the project, as well as ensurin
 
 Instructions on setting up your own local copy of BusMe can be found in the [developer readme](https://github.com/jvm-comp47360/bus-me/blob/main/developer_info/ReadMe_Developer.md).
 
-## **Using BusMe**
+## Using BusMe
 
 ### Planning a Journey
 
@@ -122,6 +122,7 @@ There’s nothing worse than being stuck in traffic on public transport. In the 
     <img src="readme_images/analytics-panel.png" width="450">
 </p>
 
-*Icon Credit: https://github.com/alexandresanlim/Badges4-README.md-Profile*
-
-**END**
+## Acknowledgements
+- Created together with [Vladimir Rakhmanin](https://github.com/toadkarter) and [Miao Shi](https://github.com/HUMPHERY1997)
+- Icon credit: https://github.com/alexandresanlim/Badges4-README.md-Profile
+- README template credit: https://github.com/othneildrew/Best-README-Template
