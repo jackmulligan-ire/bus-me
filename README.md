@@ -17,14 +17,17 @@
   </p>
 </div>
 
+## **About BusMe**
 ![inital_look](readme_images/first_page.png)
 
-## **What is BusMe?**
----
-BusMe is a Dublin Bus journey planner. It is a web application that predicts bus journey times in Dublin City using machine learning models. 
+A web application that helps users to plan their journey on Dublin Bus and GoAhead services operating in the Greater Dublin Area, with the help of machine learning to model journey times. The application was developed for the Research Practicum for the MSc Computer Science (Conv.) at University College Dublin together with Vladimir Rakhmanin and Miao Shi.
 
-## **How do I use BusMe?**
----
+I was responsible for delivering the frontend of the project, as well as ensuring that the application overall had a good user experience in my role as Customer Lead. With Google Maps being a heavyweight incumbent in the space, it was vital to provide value that users wouldn't find anywhere else. The focus was therefore on shipping features like route visualisations, journey time analytics, as well as a colourful, engaging user interface.
+
+I used the project as an opportunity to develop my frontend skills, learning React Hooks, TypeScript and Material UI. 
+
+## **Using BusMe**
+
 ### Planning a Journey
 
 #### Control Panel
