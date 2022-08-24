@@ -1,6 +1,21 @@
-# **BusMe! - A Dublin Bus Journey Planner**
-
 ![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF)![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)![postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jackmulligan-ire/critics-versus-people">
+    <img src="readme-images/bus-me-logo.png" alt="Bus Me Logo">
+  </a>
+
+<h3 align="center">BusMe!</h3>
+
+  <p align="center">
+    Plan your journeys on Dublin Bus and Go Ahead services.
+    <br />
+    <a href="https://ipa-002.ucd.ie/">Try it Out!</a>
+  </p>
+</div>
 
 ![inital_look](readme_images/first_page.png)
 
