@@ -10,87 +10,67 @@ BusMe is a Dublin Bus journey planner. It is a web application that predicts bus
 
 ## **How do I use BusMe?**
 ---
-BusMe may be accessed by either clicking [this link](http://ipa-002.ucd.ie/ "BusMe link") or pasting the following link directly into your favourite web browser: [http://ipa-002.ucd.ie/](http://ipa-002.ucd.ie/ "row link")  
+### Planning a Journey
 
-BusMe allows any user to provide details of their desired journey and receive a journey plan. The application supports several types of user input and journey types. A step-by-step guide on how interact with BusMe is set out in detail below.
+#### Control Panel
+The control panel allows the user to select a route, two stations along this route, as well as desired time of departure from the first station or a time of arrival at the last station. All three inputs support autocomplete, allowing the user to search for a route or station, as well as scrolling through the available options.
 
-If you are a developer and would like some technical details about the application, or would like to make a code contribution, please see the developer readme, which can be found at [this link.](https://github.com/jvm-comp47360/bus-me/blob/main/developer_info/ReadMe_Developer.md "Developer Readme")    
+*SINGLE SCREENSHOT*
 
-### **1. Route Mode Selection**  
-<!-- ![mode_choose](image/mode_choose.png)   -->
-<p align="center">
-<img src="readme_images/mode_choose.png" width="200px"> 
-</p>  
+Once a route has been selected, the input disappears, leaving the route number and terminus to persist in the control panel. The input can be made to reappear by pressing the ‘Select Route’ button. A slide animation controls the appearance and disappearance of the input. 
 
-There is a "Route Mode" selection button on the top navigation bar. By default, this is set to "Single Route", which means that you will need to provide the route which you wish to travel on. If you do not know what route you need to travel on, then we would recommend setting the application to "Multi Route" mode, which will automatically predict the best route for your journey, including any stopovers if necessary.    
+*GIF or nothing*
 
-### **2. Control Panel**  
-<!-- ![control_panel](image/control_panel.png) -->
-<p align="center">
-<img src="readme_images/control_panel.png" width="600px"> 
-</p> 
-Directly below the navigation bar is a control panel for main data input. There are three core parts in this panel.  
+By default, the application offers journey planning on single routes. Multi-route mode removes this requirements, allowing users to plan their journey between any two stations on the map. This mode was designed with users unfamiliar to the city in mind or those with longer commutes through or outside the city center.
 
-- **Dropdowns**  
- In "Single Route" mode, there are three dropdowns - the first allows you to select the route, then the other two allow you to choose the start and finish stops within the route. In "Multi Route" mode, the route dropdown disappears and the stops can be chosen freely.   
-<!-- ![select_route](image/select_route.png) ![select_stop](image/select_stop.png) -->
-<p align="center">
-<img src="readme_images/select_route.png" width="300px"> 
-<img src="readme_images/select_stop.png" width="300px">
-</p> 
+*existing screenshot*
 
-*Please note that all these selections can be searched by typing directly into in the dropdowns.*
+#### Viewing Route on the Map
+If no route is selected, all stations within the vicinity of the current zoom level are shown. Once a route has been selected, the map zooms out to show the entire trajectory of the route, giving visual feedback about whether they've selected the correct route. This also allows user unfamiliar with the city to see where a particular route travels to.
 
+*if GIF infeasible -> screenshot of route*
 
-- **Time Selection**   
-The calendar icon can be clicked to select the date and time of the journey. The departure and arrival radio toggles can also be clicked depending on whether you would like your journey to start or end at the provided date. 
+Once a start station is selected, the stations before it turn opaque. This both shows the user the potential remaining destination stations and the direction they’re travelling in, allowing them to change direction if they've made a mistake. Once a destination is selected, all markers except the start and destination stations become opaque. The decision was made to not have the markers disappear completely, so that users can change their start and end stations from the map, if desired.
 
-There are two steps to the date time selection process. First, a calendar appears, allowing you to select the date. Then, a clock appears to select an accurate time.
-<!-- ![calendar_selec](image/calendar_select.png) ![clock_select](image/clock_select.png) -->
-<p align="center">
-<img src="readme_images/calendar_select.png" width="200px"> 
-<img src="readme_images/clock_select.png" width="200px">
-<img src="readme_images/time_type.png" width="200px">
-</p>   
+*GIF or nothing*
 
-- **Plan Journey**  
-Once the above information has been provided, the "Plan Journey" button will activate and become clickable. Clicking it will retrieve route planning and time predictions.  
+#### Planning Journey with Info Windows
+Attached to each marker is an info window which enables the user to plan journeys from the viewpoint of each station. The info window displays a station’s name, number, and routes that pass through that station.  Users can also plan their journey directly from each station marker on the map. Designed for users who are unfamiliar with city, this allows for the start and end station along a route to be judged more intuitively.
 
-### **3. Results**  
-There are two core components to the way the prediction result will be displayed. The first is a journey panel that will display the journey plan in text. The second is the map view of the prediction result. 
-- **Journey Panel**  
-Journey panel will show on the right top of the map. It has a time table with the start stop, finish stop, line id of the routes and the prediction result. A Journey times button will show a line chart with recent hours prediction results. Please note that in the event that "Multi Route" mode is selected, the journey panel will show every leg of the journey, including stopovers, if applicable.
-<p align="center">
-<img src="readme_images/journey_panel.png" width="200px"> 
-<img src="readme_images/multi_journey_panel.png" width="200px">
-<img src="readme_images/line_chart.png" width="200px"> 
-</p>   
+*Use existing screenshot*
 
-- **Map View**  
-The map shows the prediction route on the map.  
-<p align="center">
-<img src="readme_images/map_view.png" width="300px"> 
-</p>   
+#### Using Geolocation
+At the top of the map, a geolocation button can be pressed that pans the map to the user’s location (browser permissions required). They can then access local stations directly from the map and begin planning their journeys.
 
-### **4. Additional Functions**  
-Apart from the fundamental functions for prediction, some supply functions are also offered here which are geolocation, weather forecast and stops on the map.   
-- **Geolocation**  
-A geolocation bar is on the left top of the map which consists of a search bar and a target icon. Users can click the icon to automatically get the present location. If there are some location issues, users can search and select the location manually which is the same as the dropdown in the control panel.  
-<p align="center">
-<img src="readme_images/geolocation.png" width="400px"> 
-</p>   
+*GIF or existing screenshot*
 
-- **Weather Forecast**  
-The weather bar will show on the right top of the map before prediction. This shows the current weather in Dublin. Users can take this information into account when planning their bus journey. 
-<p align="center">
-<img src="readme_images/weather.png" width="400px"> 
-</p>    
+#### Panning to a Location
+A search bar just above the map connects to the Google Maps Places API, providing dropdown suggestions of addresses around the city. When an address is selected, the map pans to this location. A user can then find stations in this area and begin planning their journey using the info windows.
 
-- **Stops on Map**  
-All the stops in Dublin will show on the map. This is not just to show the location of the stops - clicking on a given marker will give the user another way to interact with the application. Once any stop icon on the map is clicked, there will a pop-up show the the stop information which include its name, a list of lines that pass it and two buttons which can choose as a start or finish stop. In addition, in the single route mode, by clicking any line in the list, users can automatically jump to that line.  
-<p align="center">
-<img src="readme_images/stop_on_map.png" width="300px"> 
-</p>  
+*GIF or new screenshot*
+
+*existing screenshot*
+
+### Viewing a Journey
+
+#### Displaying the Route on the Map
+Once the Plan Journey button has been clicked, the map retrieves route directions from the Google Maps Directions API. The route returned is rendered as a polyline.
+
+*existing screenshot*
+
+#### Journey Panel
+
+A panel overlayed to the right of the map presents the departure time and arrival time at each station, as well as a predicted travel time returned by BusMe's predicted travel times API.
+
+*new screenshot*
+
+As the application will be used by commuters, it was important that all features worked well on mobile devices. While breakpoints worked well for most features, the journey panel continued to block much of the map, even when it had been condensed. To address this, a hide button was added that collapses the journey panel to a card-like format. The user can also choose to show the information again, if they want to see their planned journey.
+
+*gif or screenshot of collapsed panel*
+
+#### Journey Time Analytics
+
+There’s nothing worse than being stuck in traffic on public transport. In the Journey Panel, the user can see the journey times for a 4-hour window around the journey they've planned. This gives them the option of planning their work commute earlier or later to make their journey more pleasant.
 
 *Icon Credit: https://github.com/alexandresanlim/Badges4-README.md-Profile*
 
