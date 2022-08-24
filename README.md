@@ -22,7 +22,7 @@ The control panel allows the user to select a route, two stations along this rou
 By default, the application offers journey planning on single routes. Multi-route mode removes this requirements, allowing users to plan their journey between any two stations on the map. This mode was designed with users unfamiliar to the city in mind or those with longer commutes through or outside the city center.
 
 <p align="center">
-    <img src="readme_images/mode_choose.png">
+    <img src="readme_images/mode_choose.png" width="450">
 </p>
 
 #### Viewing Route on the Map
@@ -42,7 +42,7 @@ Once a start station is selected, the stations before it turn opaque. This both 
 Attached to each marker is an info window which enables the user to plan journeys from the viewpoint of each station. The info window displays a station’s name, number, and routes that pass through that station.  Users can also plan their journey directly from each station marker on the map. Designed for users who are unfamiliar with city, this allows for the start and end station along a route to be judged more intuitively.
 
 <p align="center">
-    <img src="readme_images/stop_on_map.png">
+    <img src="readme_images/stop_on_map.png" width="450">
 </p>
 
 #### Using Geolocation
@@ -65,7 +65,7 @@ A search bar just above the map connects to the Google Maps Places API, providin
 Once the Plan Journey button has been clicked, the map retrieves route directions from the Google Maps Directions API. The route returned is rendered as a polyline.
 
 <p align="center">
-    <img src="readme_images/map_view.png">
+    <img src="readme_images/map_view.png" width="450">
 </p>
 
 #### Journey Panel
@@ -73,13 +73,13 @@ Once the Plan Journey button has been clicked, the map retrieves route direction
 A panel overlayed to the right of the map presents the departure time and arrival time at each station, as well as a predicted travel time returned by BusMe's predicted travel times API.
 
 <p align="center">
-    <img src="readme_images/journey_panel.png">
+    <img src="readme_images/journey-panel.png" width="550">
 </p>
 
 As the application will be used by commuters, it was important that all features worked well on mobile devices. While breakpoints worked well for most features, the journey panel continued to block much of the map, even when it had been condensed. To address this, a hide button was added that collapses the journey panel to a card-like format. The user can also choose to show the information again, if they want to see their planned journey.
 
 <p align="center">
-    <img src="readme_images/panel-collapse.png">
+    <img src="readme_images/panel-collapse.gif">
 </p>
 
 #### Journey Time Analytics
@@ -87,7 +87,7 @@ As the application will be used by commuters, it was important that all features
 There’s nothing worse than being stuck in traffic on public transport. In the Journey Panel, the user can see the journey times for a 4-hour window around the journey they've planned. This gives them the option of planning their work commute earlier or later to make their journey more pleasant.
 
 <p align="center">
-    <img src="readme_images/line_chart.png">
+    <img src="readme_images/line_chart.png" width="450">
 </p>
 
 *Icon Credit: https://github.com/alexandresanlim/Badges4-README.md-Profile*
